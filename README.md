@@ -22,18 +22,18 @@ Si se desea ejecutar el servidor, se debe realizar los siguientes pasos:
 
 ## Comandos `sequelize-cli`
 
-### `yarn exec sequelize-cli init`
+#### `yarn exec sequelize-cli init`
 
 Inicializar carpetas `config`, `models`, `migrations`, `seeds` en la raiz del repositorio.
 
-### `yarn exec sequelize-cli db:create`
+#### `yarn exec sequelize-cli db:create`
 
 Crear la base de datos de acuerdo a los establecido en `/config/config.json`
 
-### `yarn exec sequelize-cli model:generate --name <nombre_modelo> --attributes <lista_atributos>`
+#### `yarn exec sequelize-cli model:generate --name <nombre_modelo> --attributes <lista_atributos>`
 
 Crear modelo y migración con su respectivo nombre y atributos.
 
-### `yarn exec sequelize-cli --help`
+#### `yarn exec sequelize-cli --help`
 
 Mostrar el resto de comandos
