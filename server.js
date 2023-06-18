@@ -14,7 +14,7 @@ app.use(express.json()); // Lectura y parseo del body
 app.use(express.static('public')); // Directorio publico
 
 // Rutas
-app.use('/api', require('./routes'));
+app.use('/api/usuarios', require('./routes/usuarios'));
 
 // Establecer servidor
 app.listen(port, () => {
