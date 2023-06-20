@@ -11,6 +11,6 @@
   "rules": {
     "no-unused-vars": "warn",
     "func-names": "off",
-    "camelcase": "off"
+    "consistent-return": "off"
   }
 }
