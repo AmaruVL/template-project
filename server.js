@@ -23,6 +23,7 @@ app.use(express.static('public')); // Directorio publico
 // app.use('/api/usuarios', require('./routes/usuarios'));
 app.use('/api/uits', require('./routes/uits'));
 
+// Middleware para controlar errores
 app.use((err, req, res, next) => {
   res.status(500).json({
     mensaje: 'Ocurrió un problema mientras se procesaba la solicitud',

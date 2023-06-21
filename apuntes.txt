@@ -1,0 +1,19 @@
+-- HERRAMIENTAS
+YARN -> Gestor paquetes
+DOTENV -> Archivo .env
+ESLINT -> Sintaxis, errores
+PRETTIER -> Formatear código
+SWAGGER -> Documentar endpoints/apis
+DOCKER -> Contenedores
+  docker compose up 
+SEQUELIZE-CLI -> Comandos sequelize
+  yarn exec sequelize-cli init
+  yarn exec sequelize-cli db:create
+  yarn exec sequelize-cli model:generate --name persona --attributes nombre:string --underscored
+  yarn exec sequelize-cli db:migrate
+  yarn exec sequelize-cli --help
+
+-- ESTILOS AL NOMBRAR
+  snake_case
+  camelCase
+  UpperCase
